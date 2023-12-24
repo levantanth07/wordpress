@@ -1,0 +1,741 @@
+body {
+    font-family: 'Google Sans';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*********** login form *******************/
+.popup .close:focus {
+    background: #E96E34;
+}
+.popup.modal-login .modal-body {
+    margin-top: 0px;
+}
+.modal-login h5 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.modal-login  i.icon-c-info {
+    font-size: 35px;
+    color: #E96E34;
+}
+.modal-login  i.icon-remove-small,.modal-login i.icon-warning {
+    font-size: 35px;
+    color: #E96E34;
+}
+
+.modal-login .msg-alert {
+    text-align: center;
+    color:#6B6C6F;
+}
+.modal-login .modal-dialog {
+    width: auto;
+}
+.modal-login .modal-body h4{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.modal-login .modal-body input[type="text"] {
+    border: 1px solid #E0E0E0;
+    border-radius: 22px;
+    height: 44px;
+    text-indent: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+.modal-login .modal-body input[type="text"].form-control.is-invalid{
+    border-color: #dc3545;
+}
+.modal-login .modal-body .invalid-feedback {
+    padding:10px 0;
+    font-size: 12px;
+}
+.modal-login .modal-body input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(233,110,52,.2);
+}
+.modal-login .modal-body small {
+    color: #6B6C6F;
+    font-style: italic;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+.modal-login .modal-body button {
+    width: 100%;
+    height: 44px;
+    background: #E96E34;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+
+}.modal-login .modal-body .wrap-action {
+     margin-top: 10px;
+     text-align: center;
+ }
+.modal-login .modal-body button.btn-cancel,
+.modal-login .modal-body button.btn-ok {
+    width: 45%;
+    margin:0 5px;
+}
+.modal-login .modal-body button.btn-cancel {
+    background: #3C3C3C;
+    color: #fff;
+}
+.modal-login .modal-body  .form-check {
+    margin: 10px 0;
+    color: #6B6C6F;
+}
+.modal-login .modal-body .row-last {
+    text-align: center;
+}
+.modal-login .modal-body .row-last a{
+    color: #E96E34;
+    position: relative;
+    padding:0 10px;
+}
+.modal-login .modal-body .row-last a.first:before {
+    content: '|';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#modal-login section.input-otp {
+    display: none;
+}
+/******** end modal login **********/
+
+/******** modal popup *************/
+.popup .close{
+    position: absolute;
+    right: -1px;
+    top: -6px;
+    padding: 10px;
+    z-index: 10;
+}
+.popup .modal-body {
+    margin-top: 20px;
+}
+.popup2 .modal-body {
+    margin-top: 0;
+}
+.popup2 .modal-body .list-group {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.popup2 .modal-body h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    color:#E96E34 !important;
+}
+.popup2 .modal-body .list-group li {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.125);
+}
+.popup2 .modal-body .list-group li:hover {
+    background: #f2f2f2;
+}
+.popup .modal-body h4 {
+    font-size: 18px;
+    color: #221F20;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.popup .modal-body p {
+    font-size: 14px;
+    color: #605E5C;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.popup .modal-body  .info-product {
+    font-size: 12px;
+    color: #828282;
+
+}
+.popup .modal-body  .info-product span {
+    background: #221F20;
+    border-radius: 9px;
+    height: 18px;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 10px;
+    margin-left: 10px;
+
+}
+
+.popup .modal-body  .info-product span i {
+    margin-right: 3px;
+}
+.popup .modal-body a {
+    color: #00A707;
+    font-size: 14px;
+}
+.popup .modal-body a i {
+    font-size: 6px;
+    margin-left: 5px;
+}
+.popup .modal-body .block-extend {
+    border: none;
+    font-size: 13px;
+
+}
+.popup .modal-body .extend {
+    margin-top: 10px;
+    display: block;
+}
+.popup .modal-body .block-extend .card-body {
+    border: none;
+    background: #FFF4F2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.popup .modal-body .block-extend .card-body ul li {
+    padding: 5px 0;
+    margin:0;
+    width: 100%;
+    float: left;
+    border: none;
+}
+.popup .modal-body .block-extend .card-body ul li a {
+    display: inline-block;
+}
+.popup .modal-body .block-extend .card-body ul li a,
+.popup .modal-body .block-extend .card-body ul li span{
+    float:right;
+}
+.popup .modal-body .block-extend .card-body ul li span {
+    margin-left: 5px;
+}
+.popup .modal-body .block-extend .card-body ul li a:hover i {
+    color: #E96E34;
+}
+.popup .modal-body .block-extend .card-body ul li a i{
+    font-size: 20px;
+    color: #605E5C;
+}
+.popup .modal-footer {
+    border-top: none;
+    padding: 0;
+}
+.popup .modal-footer p {
+    font-size: 18px;
+    vertical-align: center;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: #E96E34;
+}
+.popup .modal-footer p span {
+    color: #BDBDBD;
+}
+.popup .modal-footer button {
+    background: #E96E34;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 14px;
+    height: 44px;
+    padding: 0 40px;
+    border: none;
+    float: right;
+    margin-top: 15px;
+}
+.popup .modal-footer p span {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.popup .modal-footer p span.num {
+    text-decoration: none;
+    color:#605E5C;
+}
+.popup .modal-footer p a {
+    color: #605E5C;
+    position: relative;
+    top: 5px;
+}
+.popup .modal-footer p a:hover i {
+    color: #BE2026;
+}
+.popup .modal-footer p a i{
+    font-size: 25px;
+}
+.modal-pronvice .modal-header {
+    padding:5px 10px;
+
+}
+.modal-pronvice .modal-header .modal-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BE2026;
+}
+.modal-pronvice .list-province li{
+    width: 100%;
+}
+.modal-pronvice .list-province li a {
+    padding: 5px 0;
+    display: block;
+    color: #323130;
+    font-size: 14px;
+}
+
+.modal-province .modal-body .list-province {
+    min-height: 400px;
+}
+
+.modal-province .modal-body .search-province {
+    height: 44px;
+}
+.modal-province .modal-body .search-province input {
+    width: calc(100% - 40px);
+    padding-left: 15px;
+    height: 40px;
+}
+.modal-province .modal-body .search-province input:focus{
+    border: none;
+}
+
+.modal-qrcode .modal-header button:focus {
+    background: #E96E34;
+}
+.modal-qrcode .modal-body span {
+    font-size: 13px;
+    color: #E96E34;
+    font-style: italic;
+}
+.modal-qrcode .modal-body span i {
+    margin-right: 5px;
+}
+.modal-qrcode .modal-body h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #221F20;
+}
+.modal-qrcode .modal-body .wrap-qr-code {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.modal-qrcode .modal-body ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.modal-qrcode .modal-body ul li i.icon-scan {
+    color: #E96E34;
+    font-size: 16px;
+}
+.modal-qrcode .modal-footer .btn-other {
+    height: 44px;
+    border:1px solid #999;
+    text-align: center;
+    color: #999;
+    background: #fff;
+    line-height: 44px;
+    border-radius: 3px;
+    padding:0 10px;
+}
+.modal-qrcode .modal-footer .btn-other:hover {
+    border-color: #BE2026;
+    background: #BE2026;
+    color: #fff;
+}
+
+#modal-alert button a {
+    color: #fff;
+}
+/******** end modal popup *********/
+
+/** customer list restaurant **/
+.suggest-delivery-restaurant {
+    background: #fff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0px 13px 5px 13px;
+}
+.suggest-delivery-restaurant .wrap-current-brand {
+    border-bottom: 1px dotted #e0e0e0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.suggest-delivery-restaurant .wrap-current-brand a {
+    color: #333;
+    font-size: 14px;
+    float: left;
+    width: 30px;
+    display: block;
+    position: absolute;
+    top: 40px;
+}
+.suggest-delivery-restaurant .wrap-current-brand img {
+    margin: 0 auto;
+    display: block;
+    max-height: 80px;
+}
+.suggest-delivery-restaurant .position {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.suggest-delivery-restaurant .position span {
+    font-weight: 600;
+    font-size: 11px;
+    color: #E96E34;
+    text-transform: uppercase;
+}
+.suggest-delivery-restaurant .position i {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    font-size: 8px;
+}
+/** end custom list restaurant **/
+
+#customer-selected-address {
+    width: 100%;
+}
+
+.cart .code-discount input[type="text"], .block-step .code-discount input[type="text"] {
+    width: 65%;
+}
+.cart .code-discount button, .block-step .code-discount button {
+    width: 30%;
+}
+
+.pay-delivery .block-step .free-ship {
+    padding-left: 15px;
+}
+#invoice-form {
+    display: none;
+}
+
+.pay-delivery .block-step h4 a {
+    float: right;
+    color: #E96E34;
+    font-size: 0.8rem;
+}
+
+.modal-success {
+    text-align: center;
+}
+.modal-success .wrap-icon {
+    margin-bottom: 20px;
+}
+.modal-success button {
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    background: #E96E34;
+    border-radius: 8px;
+    height: 44px;
+    width: 240px;
+}
+.modal-success h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #14142B;
+    margin-bottom: 0;
+}
+.modal-success p {
+    font-size: 16px;
+    color: #868686;
+    padding:0 20px;
+}
+
+input {
+    font-size: 16px;
+}
+
+.icon-vnpay {
+    background: url('../images/vnpay.png') no-repeat center center !important;
+}
+
+.icon-zalo {
+    background: url('../images/zalo-pay.png') no-repeat center center !important;
+}
+
+/** cart/order total//voucher **/
+#list-discount-vouchers li, #list-cash-vouchers li {
+    list-style: disc;
+    padding: 0 0 0 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+#list-cash-vouchers {
+    display: none;
+    padding: 0.5rem 0;
+    font-size: 17px;
+}
+
+#list-cash-vouchers.active {
+    display: block;
+    border-top: dotted 1px #7c7c7c;
+}
+
+#list-cash-vouchers .voucher {
+    margin: 0.3rem 0;
+}
+#list-cash-vouchers .voucher b {
+    font-size: 15px;
+}
+.summary p {
+    font-size: 17px;
+    margin: 0.7rem 0;
+}
+.summary p b {
+    font-size: 15px;
+}
+
+.sum span {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+.sum b {
+    font-size: 17px;
+}
+/** end total **/
+
+/**** modal select provice *****/
+.modal-province .modal-content {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+.modal-province .modal-body .list-province {
+    max-height: 320px;
+    overflow-y: auto;
+    min-height: 320px;
+}
+.modal-province .modal-header{
+    border-bottom:1px solid #DFE2E6;
+}
+.modal-province .modal-header .modal-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.modal-province .modal-body {
+    padding:0 !important;
+}
+.modal-province .modal-body .search-province {
+    height: 44px;
+    border: 1px solid #E0E0E0;
+    border-radius: 22px;
+    margin:10px 20px 0 20px;
+}
+.modal-province .modal-body .search-province input {
+    border: none;
+    height: 42px;
+    border-radius: 22px;
+    width: calc(100% - 40px);
+}
+.modal-province .modal-body .list-province {
+    margin-top: 5px;
+}
+.modal-province .modal-body .list-province ul li i{
+    background:url('../images/radio.svg') no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.modal-province .modal-body .list-province ul li {
+    padding:10px 20px;
+    border-top:1px solid #F7F8F9;
+}
+.modal-province .modal-body .list-province ul li.active i {
+    background:url('../images/radio-active.svg') no-repeat 0 0;
+}
+.modal-province .modal-body .list-province ul li:first-child {
+    border-top:none;
+}
+.modal-province .modal-body .list-province ul li span {
+    font-size: 16px;
+}
+.modal-province .modal-body .list-province ul li input{
+    display: none;
+}
+.modal-promotion.modal-province .modal-body .list-promotion {
+    max-height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li {
+    border-bottom: 1px solid #EDF2F9;
+    padding: 10px 0px 10px 0px;
+    margin:0 16px;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li .media img {
+    border-radius: 12px;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li p {
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li p span {
+    padding:4px 8px;
+    background: #E96E34;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.modal-promotion.modal-province .modal-body .list-promotion ul li h5 {
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li a {
+    font-size: 14px;
+    color: #248FED;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li a.deny {
+    color: #EF4949;
+}
+@media screen and (min-width: 768px) {
+    .modal-promotion.modal-province .modal-dialog {
+        margin: 0 auto;
+        position: absolute;
+        left: 25%;
+        max-width: 50%;
+    }
+}
+/********* end modal select province ************/
+
+.cart .code-discount button, .block-step .code-discount button {
+    padding: 0 10px;
+}
+
+/** CSS list promotion **/
+#list-code-promotion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    max-width: 320px;
+    white-space: nowrap;
+    height: 55px;
+}
+#list-code-promotion .code {
+    position: relative;
+    color: #E96E34;
+    height: 30px;
+    border-radius: 20px;
+    padding: 4px;
+    background: #EDEDED;
+    margin-right: 4px;
+}
+#list-code-promotion .code img {
+    position: absolute;
+    cursor: pointer;
+    top: -7px;
+    right: -7px;
+    height: 16px;
+    width: 16px;
+}
+
+/** Scroll button left right **/
+#list-code-promotion .left-btn {
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+#list-code-promotion .left-btn.show {
+    display: block;
+}
+#list-code-promotion .left-btn.show:hover {
+    background: #EDEDED;
+}
+#list-code-promotion .left-btn.show i {
+    cursor: pointer;
+}
+#list-code-promotion .right-btn {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+#list-code-promotion .right-btn.show {
+    display: block;
+}
+#list-code-promotion .right-btn.show:hover {
+    background: #EDEDED;
+}
+#list-code-promotion .right-btn.show i {
+    cursor: pointer;
+}
+/** End scroll button left right **/
+
+.code-discount section {
+    height: 44px;
+    border: 1px solid #E0E0E0;
+    border-radius: 22px;
+    margin:0 15px;
+}
+.code-discount .title {
+    margin:0 15px;
+}
+.code-discount .title span {
+    color: #007BFF;
+    cursor: pointer;
+}
+.modal-promotion input {
+    box-shadow: none;
+    height: 48px;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+}
+.modal-promotion input.promotion-code:focus {
+    border-right: 1px #80bdff solid;
+}
+.modal-promotion .btn-scan-qr {
+    cursor: pointer;
+    padding: 4px 10px 4px 4px;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+.modal-promotion input.btn-apply-voucher {
+    background-color: #E96E34;
+    color: #fff;
+    border-radius: 0 8px 8px 0;;
+}
+/** End css list promotion **/
+
+/** CSS global loading **/
+.global-loading {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 0;
+}
+.global-loading.show {
+    display: flex;
+    z-index: 1;
+}
+/** End css global loading **/
+
+.icon-shopee-pay {
+    background:url('../images/shopee-pay.png') no-repeat center center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}

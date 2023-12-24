@@ -1,0 +1,304 @@
+{
+  "class": [
+    {
+      "id": 1,
+      "name": "Đồ ăn",
+      "issue": [
+        {
+          "id": "1.1",
+          "name": "Chất lượng",
+          "errors": [
+            {
+              "id": "1.1.1",
+              "name": "Định lượng thực phẩm không đủ"
+            },
+            {
+              "id": "1.1.2",
+              "name": "Thực phẩm không ngon và không đúng vị"
+            },
+            {
+              "id": "1.1.3",
+              "name": "Thực phẩm bị thay đổi trạng thái, cấu trúc, kết cấu"
+            },
+            {
+              "id": "1.1.4",
+              "name": "Hình ảnh, màu sắc sản phẩm mùi không đúng"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "ATTP",
+          "errors": [
+            {
+              "id": "1.2.1",
+              "name": "Đồ ăn có dị vật (tóc, gián...)"
+            },
+            {
+              "id": "1.2.2",
+              "name": "Thực phẩm có dấu hiệu hư hỏng, ôi thiu"
+            },
+            {
+              "id": "1.2.3",
+              "name": "Đưa nhầm đồ ăn đã qua sử dụng cho KH"
+            },
+            {
+              "id": "1.2.4",
+              "name": "Hành vi, diện mạo NVNH không đảm bảo VS"
+            },
+            {
+              "id": "1.2.5",
+              "name": "KH phản hồi đau bụng và được QA xác nhận là nguyên nhân do NH"
+            },
+            {
+              "id": "1.2.6",
+              "name": "KH phản hồi đau bụng và QA xác nhận không phải lỗi của NH"
+            },
+            {
+              "id": "1.2.7",
+              "name": "Delivery đóng gói không vệ sinh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dịch vụ",
+      "issue": [
+        {
+          "id": "2.1",
+          "name": "Phục vụ (tốc độ. kỹ năng)",
+          "errors": [
+            {
+              "id": "2.1.1",
+              "name": "Lên đồ chậm"
+            },
+            {
+              "id": "2.1.2",
+              "name": "Lên đồ sai"
+            },
+            {
+              "id": "2.1.3",
+              "name": "Lên đồ thiếu món"
+            },
+            {
+              "id": "2.1.4",
+              "name": "Thiếu món nhưng không thông tin cho KH từ trước khi khách vào Nh hoặc đặt chỗ trên web"
+            },
+            {
+              "id": "2.1.5",
+              "name": "Tư vấn sai"
+            },
+            {
+              "id": "2.1.6",
+              "name": "Tư vấn không đầy đủ"
+            },
+            {
+              "id": "2.1.7",
+              "name": "Nhân viên không nhanh nhẹn, kỹ năng hỗ trợ KH chưa tốt"
+            },
+            {
+              "id": "2.1.8",
+              "name": "Nhân viên không dọn đồ dơ trong quá trình KH dùng bữa"
+            },
+            {
+              "id": "2.1.9",
+              "name": "Nhân viên không hỗ trợ các yêu cầu của KH"
+            },
+            {
+              "id": "2.1.10",
+              "name": "BQL/nhân viên không bao quát NH"
+            },
+            {
+              "id": "2.1.11",
+              "name": "Thanh toán chậm"
+            },
+            {
+              "id": "2.1.12",
+              "name": "Thu nhân tính sai tiền của KH"
+            },
+            {
+              "id": "2.1.13",
+              "name": "NV tích sai điểm cho KH"
+            },
+            {
+              "id": "2.1.14",
+              "name": "NV không hỗ trợ khi KH để xe và lấy xe"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Thái độ nhân viên (nhân viên.bảo vệ.QLNH)",
+          "errors": [
+            {
+              "id": "2.2.1",
+              "name": "Không niềm nở, không nhiệt tình"
+            },
+            {
+              "id": "2.2.2",
+              "name": "Không lắng nghe, có ngôn từ giao tiếp với KH chưa đúng chuẩn mực"
+            },
+            {
+              "id": "2.2.3",
+              "name": "Có hành động không đúng chuẩn mực khi phục vụ KH"
+            },
+            {
+              "id": "2.2.4",
+              "name": "Có hành động gian lận"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "GDelivery của NH",
+          "errors": [
+            {
+              "id": "2.3.1",
+              "name": "Giao thiếu đồ"
+            },
+            {
+              "id": "2.3.2",
+              "name": "Giao sai đồ"
+            },
+            {
+              "id": "2.3.3",
+              "name": "Giao đồ chậm (do NH )"
+            },
+            {
+              "id": "2.3.4",
+              "name": "Đóng gói không đúng tiêu chuẩn"
+            },
+            {
+              "id": "2.3.5",
+              "name": "Đóng gói thiếu nhãn mác, hướng dẫn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cơ sở vật chất",
+      "issue": [
+        {
+          "id": "3.1",
+          "name": "Tình trạng vệ sinh",
+          "errors": [
+            {
+              "id": "3.1.1",
+              "name": "Công cụ dụng cụ không sạch sẽ"
+            },
+            {
+              "id": "3.1.2",
+              "name": "Công cụ dụng cụ hỏng hóc"
+            },
+            {
+              "id": "3.1.3",
+              "name": "Công cụ dụng cụ thiếu"
+            },
+            {
+              "id": "3.1.4",
+              "name": "Tình trạng vệ sinh chung của NH không tốt"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Hình ảnh không gian (bài trí.trang trí.nhiệt độ.ánh sáng.nhà vệ sinh...)",
+          "errors": [
+            {
+              "id": "3.2.1",
+              "name": "Không gian không thỏa mái"
+            },
+            {
+              "id": "3.2.2",
+              "name": "Nhà vệ sinh không sạch sẽ, thiếu công cụ dụng cụ"
+            },
+            {
+              "id": "3.2.3",
+              "name": "Cơ sở vật chất hỏng hóc"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "An toàn cho KH",
+          "errors": [
+            {
+              "id": "3.3.1",
+              "name": "An toàn cho KH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vận hành chung",
+      "issue": [
+        {
+          "id": "4.1",
+          "name": "Website GDelivery"
+        },
+        {
+          "id": "4.2",
+          "name": "App TGS"
+        },
+        {
+          "id": "4.3",
+          "name": "GBooking"
+        },
+        {
+          "id": "4.4",
+          "name": "Thiết bị thanh toán(máy POS, máy quẹt thẻ,..)"
+        },
+        {
+          "id": "4.5",
+          "name": "Website Brand"
+        },
+        {
+          "id": "4.6",
+          "name": "Chính sách/CTKM"
+        },
+        {
+          "id": "4.7",
+          "name": "Voucher"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Giao hàng",
+      "issue": [
+        {
+          "id": "5.1",
+          "name": "Thái độ nhân viên giao hàng"
+        },
+        {
+          "id": "5.2",
+          "name": "Phí ship"
+        },
+        {
+          "id": "5.3",
+          "name": "Tốc độ giao hàng"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Không vấn đề"
+    },
+    {
+      "id": 7,
+      "name": "Khách hàng đánh giá nhầm"
+    }
+  ],
+  "errors": [
+    "Lỗi ít nghiêm trọng và có thể bị ảnh hưởng bởi yếu tố khách quan",
+    "Lỗi ít nghiêm trọng",
+    "Lỗi nghiêm trọng",
+    "Lỗi đặc biệt nghiêm trọng"
+  ]
+}

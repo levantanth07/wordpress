@@ -1,0 +1,899 @@
+body {
+    font-family: 'Google Sans';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.wrap-brand {
+
+}
+
+#choose-brand {
+    display: none;
+}
+
+
+#modal-login section.input-otp {
+    display: none;
+}
+
+.cart .code-discount section {
+    height: 44px;
+    border: 1px solid #E0E0E0;
+    border-radius: 22px;
+    margin:0 15px;
+}
+
+.cart .code-discount .title {
+    margin:0 15px;
+}
+
+.cart .code-discount .title span {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.form-live-receipt {
+    display: none;
+}
+
+.block-cate ul li .info .add-to-cart a span.fa {
+    color: #E96E34;
+}
+
+.block-cate ul li .info .title-unit .title {
+    height: auto !important;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.block-cate ul li .info .title-unit span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.block-cate ul li .info .title-unit {
+    height: 40px;
+    font-weight: 600;
+}
+
+.block-cate ul li .info .price {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.block-cate .title-group {
+    position: relative;
+}
+.block-cate .title-group span {
+    position: absolute;
+    top: -65px;
+}
+.block-cate .title-group.is-mobile span {
+    top: -175px;
+}
+
+#modal-alert .modal-body a {
+    color: #fff;
+}
+
+#modal-change-restaurant .modal-body .list-group li {
+    cursor: pointer;
+}
+
+.mb-cate ul::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mb-cate ul {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.header-list .menu-user .dropdown-item span {
+    background: #E96E34;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+    display: inline-block;
+    height: 26px;
+    text-align: center;
+    width: 26px;
+    margin-left: 5px;
+}
+
+.cart {
+    display: block;
+}
+
+.wrap-current-brand .serve-time {
+    font-size: 13px;
+}
+
+.wrap-feature .form-feature input[type="text"],
+.mod-search input,
+.modal-login .modal-body input[type="text"],
+.wrap-list-mb .cart .code-discount input[type="text"],
+.pay-delivery .block-step input.form-control,
+.pay-delivery .block-step select.form-control
+{
+    font-size: 16px;
+}
+
+.cart .code-discount input[type="text"] {
+    padding: 8px 11px;
+}
+
+.position span.distance, .position .distance span {
+    color: #0d66c2;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.position span.time {
+    float: right;
+    font-size: 13px;
+
+}
+
+.position span.time, .position span span {
+    text-transform: none;
+}
+
+.position span.time.close-time, .position span.close-time span {
+    color: #6B6C6F;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .cart {
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .pay-delivery {
+        margin-bottom: 0px;
+    }
+}
+
+.sub-footer .wrap-register a {
+    position: inherit;
+    text-align: center;
+}
+
+footer ul li a {
+    display: inline-block;
+}
+
+/* old css, todo remove later*/
+#select-region-brand .list-brand {
+    display: none;
+}
+
+#select-region-brand .list-brand img {
+
+}
+
+#select-region-brand a {
+    cursor: pointer;
+}
+
+.not-active-a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+.cart .summary a.btn-order {
+    border: 1px solid #BE2026;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 40px;
+    background: #BE2026;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.cart ul li .btn-more a {
+    color: red;
+}
+
+#checkout-edit-address {
+    display: none;
+}
+
+.wallet-address ul li .wrap-address .selected-name {
+    color: #BE2026;
+}
+
+.wallet-address ul li .select.checked {
+    border-color: #BE2026;
+}
+
+.cart .summary .order-more {
+    color: red;
+    font-size: 0.7rem;
+}
+
+.cart .summary .order-more:hover {
+    font-style: italic;
+}
+
+#delivery-address {
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-bottom: 0.2rem;
+}
+
+.free-ship .change-address {
+    color: #BE2026;
+    font-style: italic;
+}
+
+#delivery-address p {
+    margin: 0 1rem 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+#delivery-address p strong {
+
+}
+#delivery-address p:last-child {
+    padding-bottom: 1rem;
+}
+
+.block-manage-order .table tbody th a {
+    color: #BE2026;
+}
+
+.color-loading {
+    color: #E96E34;
+}
+
+.wrap-province-2 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    height: 36px;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 36px;
+    color: #221F20;
+    padding: 0 30px;
+}
+
+.wrap-province-2 span {
+    color: #E96E34;
+}
+
+@media (max-width: 575.98px) {
+    .wrap-province-2 {
+        top: 92%;
+        bottom: 5% !important;
+        min-height: 75px;
+        max-height: 80px;
+        height: auto;
+        line-height: 26px;
+        padding-top: 10px;
+        overflow-y: hidden;
+    }
+}
+
+/** cart/order total//voucher **/
+#list-discount-vouchers li, #list-cash-vouchers li {
+    list-style: disc;
+    padding: 0 0 0 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #afafaf;
+}
+#list-discount-vouchers li b, #list-cash-vouchers li b {
+    color: #afafaf !important;
+}
+#list-cash-vouchers {
+    display: none;
+    padding: 0.5rem 0;
+    font-size: 17px;
+}
+#list-cash-vouchers.active {
+    display: block;
+    border-top: dotted 1px #7c7c7c;
+}
+
+#list-cash-vouchers .voucher {
+    color: #000 !important;
+    margin: 0.3rem 0;
+}
+#list-cash-vouchers .voucher span {
+    color: #000;
+}
+#list-cash-vouchers .voucher b {
+    font-size: 15px;
+}
+.summary p {
+    font-size: 17px !important;
+    margin: 0.7rem 0;
+}
+.summary p b {
+    font-size: 15px !important;
+    color: #000 !important;
+}
+
+.sum span {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+.sum b {
+    font-size: 17px;
+}
+/** end total **/
+
+/** modal order success **/
+.modal-success {
+    text-align: center;
+}
+.modal-success .wrap-icon {
+    margin-bottom: 20px;
+}
+.modal-success button {
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    background: #E96E34;
+    border-radius: 8px;
+    height: 44px;
+    width: 240px;
+}
+.modal-success h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #14142B;
+    margin-bottom: 0;
+}
+.modal-success p {
+    font-size: 16px;
+    color: #868686;
+    padding:0 20px;
+}
+/** end modal order success **/
+
+/**** modal select provice *****/
+.modal-province .modal-content {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+.modal-province .modal-body .list-province {
+    max-height: 400px;
+    overflow-y: auto;
+    min-height: 400px;
+}
+.modal-province .modal-header{
+    border-bottom:1px solid #DFE2E6;
+}
+.modal-province .modal-header .modal-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.modal-province .modal-body {
+    padding:0 !important;
+}
+.modal-province .modal-body .search-province {
+    height: 44px;
+    border: 1px solid #E0E0E0;
+    border-radius: 22px;
+    margin:10px 20px 0 20px;
+}
+.modal-province .modal-body .search-province input {
+    border: none;
+    height: 42px;
+    border-radius: 22px;
+    width: calc(100% - 40px);
+}
+.modal-province .modal-body .list-province {
+    margin-top: 5px;
+}
+.modal-province .modal-body .list-province ul li i{
+    background:url('../images/radio.svg') no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.modal-province .modal-body .list-province ul li {
+    padding:10px 20px;
+    border-top:1px solid #F7F8F9;
+}
+.modal-province .modal-body .list-province ul li.active i {
+    background:url('../images/radio-active.svg') no-repeat 0 0;
+}
+.modal-province .modal-body .list-province ul li:first-child {
+    border-top:none;
+}
+.modal-province .modal-body .list-province ul li span {
+    font-size: 16px;
+}
+.modal-province .modal-body .list-province ul li input{
+    display: none;
+}
+.modal-promotion.modal-province .modal-body .list-promotion {
+    max-height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li {
+    border-bottom: 1px solid #EDF2F9;
+    padding: 10px 0px 10px 0px;
+    margin:0 16px;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li .media img {
+    border-radius: 12px;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li p {
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li p span {
+    padding:4px 8px;
+    background: #E96E34;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.modal-promotion.modal-province .modal-body .list-promotion ul li h5 {
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li a {
+    font-size: 14px;
+    color: #248FED;
+}
+.modal-promotion.modal-province .modal-body .list-promotion ul li a.deny {
+    color: #EF4949;
+}
+@media screen and (min-width: 768px) {
+    #modal-select-province .modal-dialog {
+        margin: 0 auto;
+        position: absolute;
+        left: 25%;
+        max-width: 50%;
+    }
+}
+/********* end modal select province ************/
+
+/********* upsell in product detail ************/
+.product-up-sell .up_sell_title {
+    margin: 20px 0;
+}
+
+.product-up-sell .up_sell_list {
+    display: -webkit-box;
+    overflow-x: auto;
+}
+
+.product-up-sell .up_sell_list .up_sell_item {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .product-up-sell .up_sell_list .up_sell_item {
+        width: 300px;
+    }
+}
+
+.product-up-sell .up_sell_list .up_sell_item .product-up-sell-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #221F20;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.disabled {
+    opacity: 50%;
+    pointer-events: none;
+    cursor: default;
+}
+#product-detail-modal a.product-up-sell-plus {
+    text-decoration: none;
+}
+/********* end upsell in product detail ************/
+
+
+/** Modal promotion PC **/
+.modal-promotion.pc .modal-body .list-promotion {
+    max-height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li {
+    border-bottom: 1px solid #EDF2F9;
+    padding: 10px 0px 10px 0px;
+    margin:0 16px;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li .media img {
+    border-radius: 12px;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li p {
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li p span {
+    padding:4px 8px;
+    background: #E96E34;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.modal-promotion.pc .modal-body .list-promotion ul li h5 {
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li a {
+    font-size: 14px;
+    color: #248FED;
+}
+.modal-promotion.pc .modal-body .list-promotion ul li a.deny {
+    color: #EF4949;
+}
+@media screen and (min-width: 768px) {
+    #promotionModal .modal-dialog {
+        margin: 0 auto;
+        position: absolute;
+        left: 25%;
+        max-width: 50%;
+    }
+}
+.modal-promotion.pc input {
+    box-shadow: none;
+    height: 48px;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+}
+.modal-promotion.pc input.promotion-code:focus {
+    border-right: 1px #80bdff solid;
+}
+.modal-promotion.pc .btn-scan-qr {
+    cursor: pointer;
+    padding: 4px 10px 4px 4px;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+.modal-promotion.pc input.btn-apply-voucher {
+    background-color: #E96E34;
+    color: #fff;
+    border-radius: 0 8px 8px 0;;
+}
+
+/** CSS global loading **/
+.global-loading {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 0;
+}
+.global-loading.show {
+    display: flex;
+    z-index: 1;
+}
+
+/** CSS list promotion **/
+#list-code-promotion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    max-width: 320px;
+    white-space: nowrap;
+    height: 55px;
+}
+#list-code-promotion .code {
+    position: relative;
+    color: #E96E34;
+    height: 30px;
+    border-radius: 20px;
+    padding: 4px;
+    background: #EDEDED;
+    margin-right: 4px;
+}
+
+/** Scroll button left right **/
+#list-code-promotion .left-btn {
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+#list-code-promotion .left-btn.show {
+    display: block;
+}
+#list-code-promotion .left-btn.show:hover {
+    background: #EDEDED;
+}
+#list-code-promotion .left-btn.show i {
+    cursor: pointer;
+}
+#list-code-promotion .right-btn {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+#list-code-promotion .right-btn.show {
+    display: block;
+}
+#list-code-promotion .right-btn.show:hover {
+    background: #EDEDED;
+}
+#list-code-promotion .right-btn.show i {
+    cursor: pointer;
+}
+/** End scroll button left right **/
+
+#list-code-promotion .code img {
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    right: -4px;
+    height: 10px;
+    width: 10px;
+}
+/** End css list promotion **/
+
+/** Icon **/
+.icon-best-seller {
+    background: url('../images/icon-best-seller-off.svg') no-repeat top left;
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+}
+
+/** Css fixed menu **/
+.menu-sidebar {
+    position: fixed;
+}
+
+.mod-left {
+    width: auto;
+}
+
+@media (min-width: 992px) {
+    .menu-sidebar {
+        width: calc(960px * 0.25 - 30px);
+    }
+    .product-cart {
+        width: calc(960px * 0.33 - 30px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-sidebar {
+        width: calc(1140px * 0.25 - 30px);
+    }
+    .product-cart {
+        width: calc(1140px * 0.33 - 30px);
+    }
+}
+
+.mod-left .list-cate {
+    max-height: calc(100vh - 215px);
+    overflow-y: auto;
+}
+.mod-left .list-cate li.tag-best-seller a {
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.mod-left .list-cate li.tag-best-seller a:hover {
+    color: #D94355;
+}
+.mod-left .list-cate li.tag-best-seller.active a {
+    color: #D94355;
+}
+.mod-left .list-cate li.tag-best-seller.active a:hover {
+    color: #333;
+}
+.mod-left .list-cate li.tag-best-seller span{
+    position: relative;
+    top: -1px;
+    left: 7px;
+}
+
+@media (max-width: 1025px) {
+    .mb-cate ul li.mb-best-seller i {
+        background: url('../images/icon-best-seller-off.svg') no-repeat top left;
+        width: 15px;
+        height:20px;
+        background-size: contain;
+        display: inline-block;
+        margin-right: 3px;
+        position: relative;
+        top: 9px;
+    }
+    .mb-cate ul li.mb-best-seller a {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: #E04A4A;
+    }
+    .mb-cate ul li.mb-best-seller.active i {
+        background: url('../images/icon-best-seller-on.svg') no-repeat top left;
+        width: 15px;
+        height:20px;
+        background-size: contain;
+        display: inline-block;
+        margin-right: 3px;
+        position: relative;
+        top: 9px;
+    }
+    .mb-cate ul li.mb-best-seller.active {
+        background: #D94355;
+    }
+    .mb-cate ul li.mb-best-seller.active a {
+        color: #fff;
+    }
+}
+
+.block-cate ul li.sticker {
+    border-color: #FF6B00;
+}
+.block-cate ul li.sticker .tag {
+    position: absolute;
+    z-index: 2;
+    top: -2px;
+    right: 15px;
+    background: url(../images/label-hot-deal.svg) no-repeat top left;
+    width: 34px;
+    height: 43px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.block-cate ul li.sticker .tag span {
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/** Css product **/
+.block-cate ul li .alcohol {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    z-index: 1;
+}
+
+.block-cate ul li .alcohol img {
+    width: 80px;
+}
+
+.product-cart {
+    position: fixed;
+    top: 75px;
+    z-index: 5;
+}
+
+.product-in-cart {
+    max-height: calc(100vh - 280px);
+    overflow-y: auto;
+}
+/** End css product **/
+
+/** End css Icon **/
+
+.wrap-list.detail-brand {
+    min-height: calc(100vh - 75px);
+}
+
+.pay-delivery .free-ship span.no-fee {
+    color: inherit;
+    font-size: 14px;
+    margin-left: 0;
+}
+.pay-delivery .free-ship span.no-fee span {
+    color: #E96E34;
+    font-size: 14px;
+    margin-left: 0;
+}
+.cart .summary span.fa-spinner {
+    color: #fff;
+}
+
+.number-product-discount {
+    width: 50px;
+    line-height: 16px;
+    height: 32px !important;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ced4da !important;
+    border-radius: 8px !important;
+    text-align: right;
+}
+
+#select-product-for-voucher .product-change-quantity {
+    display: flex;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+#select-product-for-voucher .product-change-quantity span.minus {
+    cursor: pointer;
+    padding: 4px 4px 0 0;
+}
+#select-product-for-voucher .product-change-quantity span.minus:hover,
+#select-product-for-voucher .product-change-quantity span.plus:hover {
+    color: #E96E34;
+}
+#select-product-for-voucher .product-change-quantity span.num {
+    padding-top: 2px;
+}
+#select-product-for-voucher .product-change-quantity span.plus {
+    cursor: pointer;
+    padding: 4px 4px 0 4px;
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+
+.mod-left .list-cate li.tag-hot-deal a h1, .mod-left .list-cate li.tag-best-seller a h1 {
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+    left: 24px;
+    width: 80%;
+}
+
+.mb-cate ul li.mb-hot-deal h1, .mb-cate ul li.mb-best-seller h1 {
+    position: relative;
+    top: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #E96E34;
+    display: inline;
+}

@@ -1,0 +1,39 @@
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 140px;
+    width: 90px;
+    max-width: 23%;
+    line-height: 140px;
+    border: #ddd 1px solid;
+}
+.product-box span {
+    height: 42px !important;
+    overflow: hidden;
+    line-height: 20px;
+}
+.product-box img {
+    height: 90px;
+    width: 90px;
+}
+.block-content-suggestion {
+    max-height: calc(100vh/2 + 100px);
+    overflow-y: auto;
+}
+.notice-success {
+    margin-left: 0;
+}
+.pd-0 {
+    padding: 0;
+}
+.pdl-0 {
+    padding-left: 0;
+}
+.pdl-4 {
+    padding-left: 4px;
+}
+#tabContent label {
+    width: 100%;
+}

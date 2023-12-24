@@ -1,0 +1,10 @@
+/logs
+/vendor
+/.idea
+/wp-content/uploads/
+/wp-content/languages/
+/wp-content/ai1wm-backups/
+composer.lock
+wp-config.php
+Libs/Config.php
+.htaccess

@@ -1,0 +1,14 @@
+#major-publishing-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button.loading {
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+    box-shadow: none !important;
+}

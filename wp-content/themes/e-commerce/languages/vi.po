@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-08-20 15:49+0700\n"
+"PO-Revision-Date: 2020-08-20 15:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: index.php\n"
+
+#: index.php:106 index.php:112
+msgid "alert.title.error"
+msgstr "Thông báo"
+
+#: index.php:106 index.php:112 index.php:117 index.php:153 index.php:157
+msgid "alert.btn.close"
+msgstr "Đóng"
+
+#: index.php:112
+msgid "alert.message.please_try_again_after_later"
+msgstr "Vui lòng thử lại sau."
+
+#: index.php:117
+msgid "alert.title.not_input_valid_address"
+msgstr "Thông báo"
+
+#: index.php:117
+msgid "alert.message.not_input_valid_address"
+msgstr "Vui lòng kiểm tra lại địa chỉ giao hàng"
+
+#: index.php:151 index.php:153 index.php:157
+msgid "alert.title.select-invalid-brand"
+msgstr "Thông báo"

@@ -1,0 +1,56 @@
+{
+    "name": "ggg/icook-cms",
+    "description": "CMS iCook",
+    "keywords": ["icook", "ggg"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-SimpleXML": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "box/spout": "^3.3",
+        "ggg/ggg-grab-express-sdk": "dev-master",
+        "ggg/ggg-mna-sdk": "*",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^2.1",
+        "phpoffice/phpspreadsheet": "^1.14",
+        "predis/predis": "^1.1",
+        "symfony/property-access": "*",
+        "symfony/serializer": "^4.1"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "GDelivery\\Libs\\":"Libs/",
+            "Abstraction\\":"Abstraction/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+        },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.ggg.com.vn:api-hub/grab-express-php-sdk.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@gitlab.ggg.com.vn:api-hub/message-and-authentication-php-sdk.git"
+        }
+    ]
+}

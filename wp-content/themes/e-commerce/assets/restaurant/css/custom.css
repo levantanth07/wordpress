@@ -1,0 +1,21 @@
+body {
+    font-family: 'Google Sans';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.block-info-invoice {
+    height: auto !important;
+}
+
+.add-height-block {
+    height: 200px !important;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.isTopping td{
+    border-top: none !important;
+}

@@ -1,0 +1,85 @@
+.product-box, .item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 140px;
+    min-width: 100px;
+    max-width: 100%;
+    line-height: 140px;
+    border: #ddd 1px solid;
+}
+.product-box span, .item-box span {
+    height: 42px !important;
+    overflow: hidden;
+    line-height: 20px;
+}
+.product-box img, .item-box img {
+    height: 90px;
+    width: 90px;
+}
+.block-content-suggestion {
+    max-height: calc(100vh/2 + 100px);
+    overflow-y: auto;
+}
+.pd-0 {
+    padding: 0;
+}
+.pdl-0 {
+    padding-left: 0;
+}
+.pdl-4 {
+    padding-left: 4px;
+}
+#tabContent label {
+    width: 100%;
+}
+#tabContent .btn-save {
+    margin-left: 15px;
+}
+.list-product, .list-item-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4px;
+    min-height: 300px;
+    border: #000 1px solid;
+    box-shadow: 0 8px 50px rgb(0 0 0 / 6%);
+    margin-top: 4px;
+}
+input {
+    font-size: 14px;
+}
+.block-add-tab.hide {
+    display: none;
+}
+.block-add-tab.show {
+    display: block;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: #dddddd63;
+}
+
+#btnAdd {
+    margin-left: 15px;
+}
+
+.select2-selection__rendered {
+    line-height: 38px !important;
+}
+
+.select2-selection {
+    height: 38px !important;
+}
+.select2.select2-container {
+    margin-left: 15px;
+}
+.select2-selection__arrow {
+    height: inherit !important;
+}

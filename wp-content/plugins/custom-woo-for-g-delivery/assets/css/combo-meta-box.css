@@ -1,0 +1,33 @@
+.group-combo-item {
+    background-color: rgb(211 211 211 / 50%);
+}
+.child-product-type-1 .combo-group-number, 
+.child-product-type-1 .combo-group-max-item, 
+.child-product-type-1 .combo-group-min-item, 
+.child-product-type-1 .combo-product-item-is-fixed{
+    display: none;
+}
+
+.select-price-type{
+    display: none;
+}
+
+.combo-container.child-product-type-2.price-tax-type-2 .group-combo-item.show-price-type-1 .select-price-type{
+    display: block;
+}
+
+.combo-product-item-base-price{
+    display: none;
+}
+
+.combo-container.child-product-type-2.price-tax-type-2 .group-combo-item.show-price-type.show-price-type-1 .combo-product-item-base-price{
+    display: block;
+}
+
+.combo-group-show-price-type{
+    display: none;
+}
+
+.combo-container.child-product-type-2.price-tax-type-2 .group-combo-item.show-price-type .combo-group-show-price-type{
+    display: block;
+}

@@ -1,0 +1,7 @@
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+#product_catdiv,
+#product_groupdiv {
+    display: none;
+}

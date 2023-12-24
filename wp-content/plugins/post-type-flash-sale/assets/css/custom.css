@@ -1,0 +1,7 @@
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+
+ul.typeahead.dropdown-menu {
+    top: calc(1.5em + 0.75rem + 2px);
+}
